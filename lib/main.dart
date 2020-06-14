@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter DemoDemoDemo11',
+      title: 'Flutter DemoDemo1',
       home: ChangeNotifierProvider<MainModel>(
         create: (_) => MainModel(),
         child: Scaffold(
